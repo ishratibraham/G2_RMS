@@ -30,6 +30,7 @@ Client Secret
 
 
 User = Offline POS User = user
+
 after secussfull login need to create Offline User Login Details with field like user, log_in as Datetime, log_out as Datetime
 
 and fetch data as
