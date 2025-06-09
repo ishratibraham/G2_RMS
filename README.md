@@ -40,7 +40,11 @@ taxes from Item Group
 Item Tax Template = disabled = 0
 Sales Taxes and Charges Template = disabled = 0
 Tax Rule
-G2RMS Print Template
+
+G2RMS Print Template = = POS Profile = 
+
+Mode of Denomination = disabled = 0,
+
 
 Delivery Charges = disabled = 0,
 POS Offer = disabled = 0,
