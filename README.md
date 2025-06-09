@@ -1,4 +1,11 @@
 # G2_RMS
+✅ if host_name is properly set in site_config.json
+
+Make sure your site_config.json has:
+
+"host_name": "https://your-site-url.com"
+
+
 ✅ Step 1: Enable OAuth 2 in ERPNext
 
 Login to ERPNext as Administrator.
