@@ -14,9 +14,13 @@ Click New to create a new OAuth Client.
 
 Fill in the following:
 App Name: G2_RMS
+
 Redirect URIs: The URI where your .NET app will receive the authorization code (e.g., https://localhost:5001/signin-oidc for local development or your production URI).
+
 Default Scope: all (or the scopes you need like all, openid, email).
+
 Grant Type: Authorization Code (recommended for most secure apps).
+
 Save it.
 
 Note the generated:
@@ -24,6 +28,7 @@ Client ID
 Client Secret
 
 
+Offline User Login Details - user, log_in as Datetime, log_out as Datetime
 
 User = Offline POS User = user
 Company with default_currency = Offline POS User = company
