@@ -28,30 +28,53 @@ Client ID
 Client Secret
 
 
-Offline User Login Details - user, log_in as Datetime, log_out as Datetime
 
 User = Offline POS User = user
+after secussfull login need to create Offline User Login Details with field like user, log_in as Datetime, log_out as Datetime
+
+and fetch data as
+
 Company with default_currency = Offline POS User = company
+
 POS Profile = disabled = 0,
+
 warehouse = POS Profile = warehouse,
+
 POS Payment Method = POS Profile = payments (table),
+
 POS Payment Denomination = POS Profile = custom_denominations (table),
+
 Customer Group = POS Profile = customer_groups (if exist in )
+
 Customer = disabled = 0, is_frozen = 0
+
 Item = disabled = 0
+
 Item Price = selling = 1
+
 Item Group = POS Profile = item_groups (POS Item Group) 
+
 taxes from Item Group
+
 Item Tax Template = disabled = 0
+
 Sales Taxes and Charges Template = disabled = 0
+
 Tax Rule
 
+
+
 G2RMS Print Template = = POS Profile = 
+
 
 Mode of Denomination = disabled = 0,
 
 
 Delivery Charges = disabled = 0,
+
 POS Offer = disabled = 0,
+
 POS Coupon = disabled = 0, = company = company
+
 Referral Code = disabled = 0, = company = company
+
